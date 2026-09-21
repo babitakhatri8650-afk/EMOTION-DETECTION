@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+ 
+# Model artifacts (large binary files - don't commit to git)
+Artifacts/*.keras
+Artifacts/*.h5
+Artifacts/*.pkl
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# Streamlit
+.streamlit/
+ 
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+ 
+# Env vars / secrets
+.env
+ 
+
+
+
+
+
+
+
+
+
