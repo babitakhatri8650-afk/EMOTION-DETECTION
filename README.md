@@ -50,3 +50,6 @@ Requires the FastAPI backend above to be running (defaults to
 
 - `GET /health` → `{ "model_loaded": bool }`
 - `POST /predict` → `{ "text": "...", "predicted_emotion": "...", "confidence": 0.0, "all_probabilities": {...} }`
+## Demo
+Watch the demo video: [moodline_demo_2x.mp4](moodline_demo_2x.mp4)
+
